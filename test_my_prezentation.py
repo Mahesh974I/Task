@@ -5,7 +5,7 @@ import random
 from selenium.webdriver.common.by import By
 
 
-class Prezentation():
+class TestPrezentation():
 
     def test_01_my_prezentation(self):
         self.driver.get('https://livestaging.myprezent.com/signin')
