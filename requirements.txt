@@ -2,4 +2,4 @@ selenium
 seleniumbase
 seletools
 setuptools
-
+webdriver_manager
