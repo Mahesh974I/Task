@@ -29,8 +29,7 @@ class login():
     #     time.sleep(20)
     #     print('test executed successfully')
 
-if __name__ == '__main__':
-    pass
+
     # my_prezentation()
     # download()
     # driver.close()
