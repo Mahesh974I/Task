@@ -1,5 +1,5 @@
-selenium                                          4.4.3
-seleniumbase                                      4.4.4
-seletools                                         1.2.1
-setuptools                                        65.5.0
+selenium
+seleniumbase
+seletools
+setuptools                                       
 
