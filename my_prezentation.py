@@ -3,7 +3,7 @@ import time
 import random
 n = random.randint(1,8)
 driver = webdriver.Firefox()
-def my_prezentation():
+def test_01_my_prezentation():
     driver.get('https://uatstaging.myprezent.com/signin')
     driver.find_element('id','username').send_keys('directorvbxq5.noreply@prezent.ai')  ## sending user name to browser
     driver.find_element('id','password').send_keys('prezent123')
@@ -27,6 +27,7 @@ def download():
     print('test executed successfully')
 
 if __name__ == '__main__':
-    my_prezentation()
-    download()
-    driver.close()
+    pass
+    # my_prezentation()
+    # download()
+    # driver.close()
