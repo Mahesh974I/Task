@@ -20,6 +20,8 @@ class TestPrezentation():
         time.sleep(20)
         self.driver.find_element(By.CSS_SELECTOR, 'a#v-step-2').click()
         time.sleep(20)
+        self.driver.find_element(By.CSS_SELECTOR, 'a#v-step-1').click()
+
     # def download():
     #     driver.find_element('xpath',"//a[@id='v-step-1']").click()
     #     time.sleep(20)
