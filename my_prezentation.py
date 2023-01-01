@@ -2,9 +2,7 @@ from selenium import webdriver
 import time
 import random
 n = random.randint(1,8)
-# browser invoking
 driver = webdriver.Firefox()
-# driver = webdriver.Chrome(executable_path='/home/mahesh/Downloads/chromedriver_linux64/chromedriver.exe')
 def my_prezentation():
     driver.get('https://uatstaging.myprezent.com/signin')
     driver.find_element('id','username').send_keys('directorvbxq5.noreply@prezent.ai')  ## sending user name to browser
