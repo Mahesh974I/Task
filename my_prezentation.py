@@ -3,7 +3,6 @@ import time
 import random
 n = random.randint(1,8)
 driver = webdriver.Firefox()
-## invoking browser
 def my_prezentation():
     driver.get('https://uatstaging.myprezent.com/signin')
     driver.find_element('id','username').send_keys('directorvbxq5.noreply@prezent.ai')  ## sending user name to browser
