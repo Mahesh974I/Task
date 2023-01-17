@@ -1,6 +1,6 @@
 
 
-name: Github Actions
+name: Github_Actions
 on:
   push:
     branches: [ "main" ]
