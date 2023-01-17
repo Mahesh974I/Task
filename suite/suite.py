@@ -23,7 +23,7 @@ class TestLogin(BaseCase):
 
     @pytest.mark.highest
     def test_002_C764_terms_of_service(self):
-        LoginActions().verify_link(self, 'Terms of Service')
+        LoginActions().verify_link(self, 'Ter of Service')
 
     @pytest.mark.highest
     def test_003_C765_privacy_policy(self):
