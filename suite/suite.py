@@ -16,10 +16,7 @@ from actions.action import LoginActions
 
 class TestLogin(BaseCase):
 
-    @classmethod
-    def setUpClass(self):
-        print('---> setUpClass')
-        self.logger   = LoginActions().get_logger()
+
 
     @pytest.mark.high
     def test_001_C763_logout(pzsb):
