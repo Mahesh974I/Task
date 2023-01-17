@@ -16,8 +16,6 @@ from actions.action import LoginActions
 
 class TestLogin(BaseCase):
 
-
-
     @pytest.mark.high
     def test_001_C763_logout(pzsb):
         LoginActions().do_login(pzsb, username='amod-uat.noreply@abbvie.com', password='7b6907195ed41d261bd9')
